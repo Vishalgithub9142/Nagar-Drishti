@@ -1,0 +1,9 @@
+{
+    "tracker": "bytetrack.yaml",
+    "total_frames": 120,
+    "unique_vehicles_tracked": 1,
+    "track_ids": [
+        1
+    ],
+    "keyframe_screenshot": "D:\\SIH 2026\\Demo Projects\\Nagar dristi 01\\outputs\\tracking_results\\tracking_keyframe_slide.jpg"
+}

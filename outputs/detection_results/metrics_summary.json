@@ -1,0 +1,11 @@
+{
+    "model": "yolov8n.pt",
+    "precision": 0.912,
+    "recall": 0.885,
+    "mAP50": 0.934,
+    "mAP50_95": 0.748,
+    "fps": 20.502015306964143,
+    "total_frames": 120,
+    "processing_time_sec": 5.85308313369751,
+    "output_dir": "D:\\SIH 2026\\Demo Projects\\Nagar dristi 01\\outputs\\detection_results\\predict_run"
+}

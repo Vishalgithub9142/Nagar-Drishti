@@ -1,0 +1,5 @@
+names:
+  0: pothole
+path: D:\SIH 2026\Demo Projects\Nagar dristi 01\data\pothole_yolo
+train: images/train
+val: images/val

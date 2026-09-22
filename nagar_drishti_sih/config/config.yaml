@@ -1,0 +1,45 @@
+bus:
+  id: BUS_17
+  route_id: ROUTE_01
+
+models:
+  road_model: data/models/road_model.pt
+  vehicle_model: data/models/vehicle_model.pt
+  plate_model: data/models/plate_model.pt
+  tracker: bytetrack.yaml
+
+inference:
+  conf: 0.35
+  iou: 0.50
+  imgsz: 640
+  vehicle_classes: [0, 1, 2, 3, 5, 7]
+
+storage:
+  edge_db: data/edge_events.db
+  evidence_dir: data/evidence
+  max_evidence_mb: 512
+
+privacy:
+  blur_faces: true
+  store_plaintext_plate: false
+  plate_retention_hours: 24
+
+sync:
+  backend_url: http://127.0.0.1:8000
+  batch_size: 25
+  timeout_seconds: 10
+  max_retries: 12
+
+geo:
+  infrastructure_radius_m: 35
+  fusion_radius_m: 25
+  fusion_time_window_s: 900
+
+security:
+  hmac_key: CHANGE_ME_IN_ENV
+
+maintenance_weights:
+  severity: 0.35
+  traffic_exposure: 0.25
+  recurrence: 0.20
+  safety_risk: 0.20

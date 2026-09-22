@@ -1,0 +1,17 @@
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+numpy>=1.26.0
+pandas>=2.2.0
+PyYAML>=6.0.1
+requests>=2.32.0
+pydantic>=2.8.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+SQLAlchemy>=2.0.35
+python-multipart>=0.0.9
+cryptography>=43.0.0
+scikit-learn>=1.5.0
+paddleocr>=2.8.1
+paddlepaddle>=3.0.0
+pyserial>=3.5
+python-dateutil>=2.9.0

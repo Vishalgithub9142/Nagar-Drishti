@@ -1,0 +1,5 @@
+names:
+  0: license_plate
+path: D:\SIH 2026\Demo Projects\Nagar dristi 01\data\plate_yolo
+train: images/train
+val: images/val

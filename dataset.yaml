@@ -1,0 +1,8 @@
+names:
+  0: pothole
+  1: vehicle
+  2: license_plate
+path: D:\SIH 2026\Demo Projects\Nagar dristi 01\data
+test: images/test
+train: images/train
+val: images/val

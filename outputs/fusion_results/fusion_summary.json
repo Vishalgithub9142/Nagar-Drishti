@@ -1,0 +1,60 @@
+{
+    "total_raw_detections": 10,
+    "unique_master_defects": 4,
+    "reduction_percent": 60.0,
+    "epsilon_meters": 15.0,
+    "master_defects": [
+        {
+            "master_defect_id": 1,
+            "latitude": 25.612417,
+            "longitude": 85.14323,
+            "verification_count": 3,
+            "reporting_buses": [
+                1,
+                2,
+                3
+            ],
+            "max_confidence": 0.95,
+            "status": "VERIFIED_HIGH_PRIORITY"
+        },
+        {
+            "master_defect_id": 2,
+            "latitude": 25.61892,
+            "longitude": 85.151125,
+            "verification_count": 2,
+            "reporting_buses": [
+                1,
+                3
+            ],
+            "max_confidence": 0.91,
+            "status": "VERIFIED_HIGH_PRIORITY"
+        },
+        {
+            "master_defect_id": 3,
+            "latitude": 25.625,
+            "longitude": 85.16,
+            "verification_count": 1,
+            "reporting_buses": [
+                2
+            ],
+            "max_confidence": 0.79,
+            "status": "SINGLE_REPORT"
+        },
+        {
+            "master_defect_id": 4,
+            "latitude": 25.631215,
+            "longitude": 85.172025,
+            "verification_count": 4,
+            "reporting_buses": [
+                1,
+                2,
+                3,
+                1
+            ],
+            "max_confidence": 0.94,
+            "status": "VERIFIED_HIGH_PRIORITY"
+        }
+    ],
+    "visual_chart": "D:\\SIH 2026\\Demo Projects\\Nagar dristi 01\\outputs\\fusion_results\\fusion_cluster_chart.png",
+    "html_map": "D:\\SIH 2026\\Demo Projects\\Nagar dristi 01\\outputs\\fusion_results\\fusion_map.html"
+}

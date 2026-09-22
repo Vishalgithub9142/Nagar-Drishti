@@ -1,0 +1,23 @@
+# Core Computer Vision & Deep Learning
+torch>=2.0.0
+torchvision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+easyocr>=1.7.0
+
+# Spatial Analytics & Machine Learning
+scikit-learn>=1.3.0
+scipy>=1.11.0
+lapx>=0.5.5
+matplotlib>=3.7.0
+folium>=0.14.0
+
+# Backend API & Database
+fastapi>=0.100.0
+uvicorn>=0.22.0
+sqlalchemy>=2.0.0
+pydantic>=2.0.0
+
+# Utilities
+python-multipart>=0.0.6
+requests>=2.31.0

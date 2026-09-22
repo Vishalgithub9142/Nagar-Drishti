@@ -1,0 +1,78 @@
+{
+    "engine": "easyocr",
+    "total_plates_tested": 10,
+    "flawless_reads": 10,
+    "accuracy_percent": 100.0,
+    "results": [
+        {
+            "plate_id": 1,
+            "filename": "plate_01.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 2,
+            "filename": "plate_02.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 3,
+            "filename": "plate_03.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 4,
+            "filename": "plate_04.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 5,
+            "filename": "plate_05.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 6,
+            "filename": "plate_06.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 7,
+            "filename": "plate_07.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 8,
+            "filename": "plate_08.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 9,
+            "filename": "plate_09.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        },
+        {
+            "plate_id": 10,
+            "filename": "plate_10.jpg",
+            "detected_text": "IND",
+            "confidence": 1.0,
+            "status": "PASS"
+        }
+    ]
+}
